@@ -52,7 +52,7 @@ python -m venv .venv
 
 가상환경은 반드시 활성화해야만 사용할 수 있는 것은 아니다.
 
-![Python 버전 및 가상환경 확인](./guide-venv.png)
+![Python 버전 및 가상환경 확인](./images/guide-venv.png)
 
 *그림 1. Python 버전과 프로젝트 전용 가상환경의 폴더 구조 확인*
 
@@ -82,7 +82,7 @@ python -m venv .venv
 
 이때 **설치하는 패키지 이름은 `Pyrebase4`지만, Python 코드에서 불러오는 이름은 `pyrebase`**라는 점에 주의한다. 프로젝트의 `database.py`에서도 `import pyrebase`를 사용한다.
 
-![Flask 및 Pyrebase 패키지 확인](./guide-package.png)
+![Flask 및 Pyrebase 패키지 확인](./images/guide-package.png)
 
 *그림 2. 가상환경에 설치된 Flask와 Pyrebase4 패키지 및 모듈 불러오기 확인*
 
@@ -138,7 +138,7 @@ venv/
 
 또한 설정 파일의 실제 내용을 기술블로그나 공개 저장소에 그대로 게시하지 않도록 주의한다.
 
-![Firebase 연결 설정 코드](./guide-firebase.png)
+![Firebase 연결 설정 코드](./images/guide-firebase.png)
 
 *그림 3. database.py에서 Firebase 설정 파일을 읽고 데이터베이스 객체를 초기화하는 코드*
 
@@ -191,7 +191,7 @@ http://127.0.0.1:5000
 
 확인이 끝나면 서버를 실행한 터미널에서 `Ctrl+C`를 눌러 종료한다.
 
-![Flask 서버 및 웹사이트 실행 화면](./guide-run.png)
+![Flask 서버 및 웹사이트 실행 화면](./images/guide-run.png)
 
 *그림 4. Flask 개발 서버 실행 및 로컬 웹사이트 홈 화면 접속 결과*
 
