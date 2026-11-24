@@ -63,7 +63,7 @@ page = max(1, min(page, total_pages))
 
 이처럼 쿼리 문자열은 목록 조회 조건을 주소로 표현할 때 사용할 수 있다. 11주차 강의에서 다룬 정렬 기준, 카테고리, 검색어도 같은 방식으로 전달할 수 있다.
 
-![request.args 코드](./concept-args.png)
+![request.args 코드](./images/concept-args.png)
 
 *그림 1. app.py에서 request.args를 이용한 페이지 번호 처리 코드*
 
@@ -102,7 +102,7 @@ product_name = data["product_name"]
 
 이는 화면의 입력 형식과 서버에서 사용하는 자료형을 구분해야 한다는 의미다. 실제 서비스에서는 빈 값이나 잘못된 숫자가 들어오는 경우도 함께 처리해야 한다.
 
-![상품 등록 HTML 폼 코드](./concept-form.png)
+![상품 등록 HTML 폼 코드](./images/concept-form.png)
 
 *그림 2. 상품 등록 폼의 POST 방식 및 multipart/form-data 설정*
 
@@ -128,7 +128,7 @@ image_file = request.files["picture"]
 
 프로젝트에서는 업로드된 사진을 `static/images`에 저장하고, 상품 정보와 함께 파일 이름을 데이터베이스에 전달한다. 따라서 파일을 받는 일과 상품 정보를 저장하는 일도 서로 다른 처리 단계다.
 
-![상품 등록 서버 처리 코드](./concept-files.png)
+![상품 등록 서버 처리 코드](./images/concept-files.png)
 
 *그림 3. request.form과 request.files를 이용한 상품 등록 데이터 처리 코드*
 
