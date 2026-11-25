@@ -12,7 +12,7 @@ title: 영크크 기술 블로그
 
 1. [Concept — Flask의 request.args, request.form, request.files](concept.html)
 2. [Guide — Windows에서 Flask·Firebase 실행 환경 설정하기](guide.html)
-3. [Tip / Debugging — 제목 작성 예정](tip-debugging.html)
+3. [Tip / Debugging — Flask에서 CSS가 적용되지 않을 때 url_for('static') 경로 확인하기](tip_debugging.html)
 4. [Explanation — 제목 작성 예정](explanation-1.html)
 5. [Explanation — 제목 작성 예정](explanation-2.html)
    
