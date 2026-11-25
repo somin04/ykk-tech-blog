@@ -24,12 +24,12 @@ Flask와 Firebase를 활용한 웹 애플리케이션 개발 과정에서 다룬
 - 내용: Windows에서 팀 프로젝트를 실행하기 위한 환경 설정 방법을 설명한다. Python 가상환경 생성, 패키지 설치, Firebase 연결 및 읽기·쓰기 테스트, Flask 서버 실행 과정을 단계별로 정리한다.
 - [게시글 바로가기](https://somin04.github.io/ykk-tech-blog/guide.html)
 
-### 3. 제목 추가 예정
+### 3. Flask에서 CSS가 적용되지 않을 때 url_for('static') 경로 확인하기
 
-- 유형:
-- 내용:
-- 링크:
-
+- 유형: Tip / Debugging
+- 내용: Flask 리뷰 목록 페이지에서 CSS가 적용되지 않던 문제를 다뤘다. 브라우저 개발자 도구의 Network 탭에서 `review_list.css`의 404 상태를 확인해 원인(파일이 `templates` 폴더에 있었던 것)을 찾아 해결하는 과정을 정리했다.
+- [게시글 바로가기](https://somin04.github.io/ykk-tech-blog/tip_debugging.html)
+  
 ### 4. 제목 추가 예정
 
 - 유형:
