@@ -27,7 +27,7 @@ Flask와 Firebase를 활용한 웹 애플리케이션 개발 과정에서 다룬
 ### 3. Flask에서 CSS가 적용되지 않을 때 url_for('static') 경로 확인하기
 
 - 유형: Tip / Debugging
-- 내용: Flask 리뷰 목록 페이지에서 CSS가 적용되지 않던 문제를 다뤘다. 브라우저 개발자 도구의 Network 탭에서 `review_list.css`의 404 상태를 확인해 원인(파일이 `templates` 폴더에 있었던 것)을 찾아 해결하는 과정을 정리했다.
+- 내용: Flask 리뷰 목록 페이지에서 CSS가 적용되지 않던 문제를 다뤘다. 브라우저 개발자 도구의 Network 탭에서 `review_list.css`의 404 상태를 확인해 원인을 찾아 해결하는 과정을 정리했다.
 - [게시글 바로가기](https://somin04.github.io/ykk-tech-blog/tip_debugging.html)
   
 ### 4. 제목 추가 예정
